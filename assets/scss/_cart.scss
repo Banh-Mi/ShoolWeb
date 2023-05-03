@@ -1,0 +1,21 @@
+.cart-li {
+	position: relative;
+	font-size: 25px;
+
+	.cart-num {
+		position: absolute;
+		top: 0px;
+		left: 12px;
+		font-size: 14px;
+		color: $white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 18px;
+		width: 18px;
+		border-radius: 50%;
+		background-color: rgb(255, 66, 66);
+		font-size: 10px;
+	}
+}

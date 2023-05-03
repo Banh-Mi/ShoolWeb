@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "productName": "Kẻ Khôn Cũng Có Khi Khờ",
+    "productImage": "../assets/images/item2.jpg",
+    "productAuthor": "Jean-Francois Kieffer",
+    "productPriceCurrent": "5$",
+    "productPriceOrigin": "19$",
+    "description": "Kẻ Khôn Cũng Có Khi Khờ của Jean-Francois Kieffer là một cuốn sách đáng đọc nhất trong danh sách các tác phẩm. Cuốn sách này mang đến cho độc giả câu chuyện cảm động về tình người và lòng nhân ái trong cuộc sống. Với giá chỉ 5$, đây là lựa chọn tuyệt vời để tìm kiếm giá trị đích thực và trân trọng những điều đơn giản trong cuộc sống. Hãy đọc cuốn sách này để khám phá những bài học ý nghĩa và cảm xúc sâu sắc mà tác giả muốn truyền tải, và cảm nhận sức mạnh của tình người trong thế giới hiện đại đầy bất cứng và đánh đổi."
+  },
+  {
+    "id": 2,
+    "productName": "Đầu Tư Chứng Khoán",
+    "productImage": "../assets/images/item1.png",
+    "productAuthor": "Tuấn Anh",
+    "productPriceCurrent": "60$",
+    "productPriceOrigin": "78$",
+    "description": " Đầu Tư Chứng Khoán của tác giả Tuấn Anh là một trong những cuốn sách rất hữu ích về lĩnh vực đầu tư chứng khoán. Sách giải thích những khái niệm cơ bản, các chiến lược đầu tư thông minh và những lời khuyên từ chuyên gia, giúp người đọc hiểu rõ hơn về lĩnh vực này. Nội dung sách được viết một cách dễ hiểu và trực quan, không quá sâu và phức tạp, phù hợp cho những người mới bắt đầu tìm hiểu về đầu tư chứng khoán. Với giá chỉ 60$, Đầu Tư Chứng Khoán là một cuốn sách đáng đọc cho những ai muốn nâng cao kiến thức và kỹ năng đầu tư, cùng với việc đưa ra những quyết định đầu tư thông minh."
+  },
+  {
+    "id": 3,
+    "productName": "Think Again",
+    "productImage": "../assets/images/item3.jpg",
+    "productAuthor": "Adam Grant",
+    "productPriceCurrent": "40$",
+    "productPriceOrigin": "60$",
+    "description": "Think Again của tác giả Adam Grant là một cuốn sách bán chạy của New York Times mang đến cho độc giả những lời khuyên và kinh nghiệm để đối diện với sự thay đổi và khám phá những ý tưởng mới. Tác giả tập trung vào việc phá vỡ các thói quen tư duy cũ và khám phá các cách tiếp cận mới trong việc đánh giá, phát triển ý tưởng và thuyết phục người khác. Với phong cách viết dễ hiểu và thú vị, Think Again là một cuốn sách hữu ích cho những ai đang tìm kiếm cách để cải thiện kỹ năng tư duy và phát triển bản thân. Cuốn sách này có giá bán 40$, là một lựa chọn tuyệt vời cho mọi độc giả muốn khám phá thêm về cách thức để đạt được thành công trong công việc và cuộc sống."
+  },
+  {
+    "id": 4,
+    "productName": "Di Chúc Của Chủ Tịch Hồ Chí Minh",
+    "productImage": "../assets/images/item4.jpg",
+    "productAuthor": "Hồ Chí Minh",
+    "productPriceCurrent": "60$",
+    "productPriceOrigin": "80$",
+    "description": "Di Chúc Của Chủ Tịch Hồ Chí Minh là một tài liệu quan trọng và có giá trị lịch sử cao của đất nước Việt Nam. Tác phẩm này ghi lại những suy nghĩ, tư tưởng, triết lý sống của người lãnh đạo vĩ đại, người đã dẫn dắt đất nước ta vượt qua những khó khăn, thử thách, đẩy mạnh cách mạng, xây dựng và phát triển đất nước. Với nhiều lời khuyên, định hướng và thông điệp ý nghĩa, Di Chúc Của Chủ Tịch Hồ Chí Minh là tài liệu không thể thiếu đối với các nhà lãnh đạo, cán bộ, đảng viên và toàn thể nhân dân Việt Nam. Đọc tác phẩm này, chúng ta cũng hiểu rõ hơn về người lãnh đạo vĩ đại này và cách mà ông đã đóng góp cho sự phát triển của đất nước Việt Nam. "
+  },
+  {
+    "id": 5,
+    "productName": "Chủ Tịch Hồ Chí Minh Với Miền Nam Ruột Thịt",
+    "productImage": "../assets/images/item5.jpg",
+    "productAuthor": "Bùi Anh Tuấn",
+    "productPriceCurrent": "72$",
+    "productPriceOrigin": "100$",
+    "description": "Chủ Tịch Hồ Chí Minh Với Miền Nam Ruột Thịt là cuốn sách nói về sự quan tâm và tình cảm mà Chủ tịch Hồ Chí Minh dành cho miền Nam Việt Nam trong thời kỳ đấu tranh giành độc lập và thống nhất đất nước. Tác giả kể lại những câu chuyện và hành động của Chủ tịch Hồ Chí Minh trong việc xây dựng đội ngũ lãnh đạo miền Nam, hỗ trợ các hoạt động cách mạng và cùng dân chịu khó gian khổ để đạt được mục tiêu giải phóng. Cuốn sách cung cấp những thông tin chưa được biết đến về sự đóng góp của Chủ tịch Hồ Chí Minh vào sự nghiệp giải phóng miền Nam, góp phần làm tăng thêm lòng tự hào và niềm tin vào lịch sử dân tộc."
+  },
+  {
+    "id": 6,
+    "productName": "Đắc Nhân Tâm",
+    "productImage": "../assets/images/item6.jpg",
+    "productAuthor": "Dale Carnegie",
+    "productPriceCurrent": "100$",
+    "productPriceOrigin": "150$",
+    "description": "Đắc Nhân Tâm của tác giả Dale Carnegie là một trong những cuốn sách kinh điển nhất trong lĩnh vực phát triển bản thân và kỹ năng giao tiếp. Với phương pháp đơn giản, dễ hiểu và áp dụng, cuốn sách đã giúp hàng triệu người trên toàn thế giới cải thiện cuộc sống của mình. Tác phẩm này cung cấp cho độc giả những kiến thức về cách xây dựng mối quan hệ tốt với người khác, cách thuyết phục và ảnh hưởng đến họ, cũng như cách quản lý cảm xúc và áp dụng tư duy tích cực để đạt được thành công trong công việc và cuộc sống. Đọc Đắc Nhân Tâm, bạn sẽ tìm thấy sự tự tin và khả năng giao tiếp tốt hơn, giúp bạn đạt được mục tiêu và thành công trong cuộc sống."
+  },
+  {
+    "id": 7,
+    "productName": "Dòng Chảy",
+    "productImage": "../assets/images/item7.jpg",
+    "productAuthor": "Mihaly Csikszentmihaly",
+    "productPriceCurrent": "80$",
+    "productPriceOrigin": "90$",
+    "description": "Dòng Chảy của tác giả Paulo Coelho là một tác phẩm sâu sắc về cuộc sống và những giá trị tinh thần. Tác giả đã sử dụng ngôn ngữ đơn giản nhưng rất sâu sắc để kể về cuộc hành trình tìm kiếm ý nghĩa của một người đàn ông trung niên. Qua từng trang sách, độc giả được trải qua những trải nghiệm tinh thần và hiểu thêm về sự kết nối giữa con người và tự nhiên. Cuốn sách mang lại những bài học quý giá về sự sống, tình yêu và sự tha thứ, giúp độc giả tìm thấy ý nghĩa đích thực trong cuộc sống. Dòng Chảy là một tác phẩm đáng đọc để mở rộng tầm nhìn và trải nghiệm tinh thần."
+  },
+  {
+    "id": 8,
+    "productName": "Đánh Thức Con Người Phi Thường Trong Bạn",
+    "productImage": "../assets/images/item8.jpg",
+    "productAuthor": "Anthony Robbins",
+    "productPriceCurrent": "120$",
+    "productPriceOrigin": "130$",
+    "description": "Đánh Thức Con Người Phi Thường Trong Bạn là một cuốn sách bán chạy nhất của tác giả Tony Robbins, giúp bạn khám phá và phát triển tiềm năng bên trong mình. Với phương pháp giảng dạy khoa học và thực tế, Tony Robbins đã giúp hàng triệu người trên thế giới thay đổi cuộc đời của mình. Cuốn sách tập trung vào việc phát triển tư duy tích cực, tăng cường sự tự tin và khả năng lãnh đạo, giúp bạn vượt qua các thử thách và đạt được mục tiêu của mình. Nếu bạn muốn tìm kiếm sự cải thiện và phát triển bản thân, hãy đọc Đánh Thức Con Người Phi Thường Trong Bạn và khám phá sức mạnh tiềm ẩn bên trong mình."
+  },
+  {
+    "id": 9,
+    "productName": "Nghĩ Giàu Làm Giàu",
+    "productImage": "../assets/images/item9.jpg",
+    "productAuthor": "Napoleon Hill",
+    "productPriceCurrent": "82$",
+    "productPriceOrigin": "95$",
+    "description": "Cuốn sách Nghĩ Giàu Làm Giàu của tác giả Napoleon Hill là một trong những tác phẩm kinh điển trong lĩnh vực phát triển bản thân và thành công trong cuộc sống. Tác giả đã nghiên cứu và phân tích những bí quyết thành công của những người giàu có và thành công nhất thế giới, đưa ra những phương pháp, kỹ năng và quy tắc cần thiết để mọi người có thể áp dụng vào cuộc sống và đạt được thành công như những người tiền bối. Với cách viết súc tích, dễ hiểu và nhiều tình huống thực tế, cuốn sách đã trở thành nguồn cảm hứng vô tận cho rất nhiều người và được coi là bí quyết để thành công trong cuộc sống. Nếu bạn muốn tìm kiếm giải pháp để đạt được thành công, thì đây chắc chắn là một cuốn sách bạn không thể bỏ qua."
+  },
+  {
+    "id": 10,
+    "productName": "Biểu Tưởng Thất Truyền",
+    "productImage": "../assets/images/item10.jpg",
+    "productAuthor": "Dan Brown",
+    "productPriceCurrent": "59$",
+    "productPriceOrigin": "104$",
+    "description": "Biểu Tưởng Thất Truyền của tác giả Carl Jung là một cuốn sách kinh điển trong lĩnh vực tâm lý học và nghiên cứu về văn hóa. Tác phẩm này trình bày những khám phá sâu sắc của Carl Jung về văn hóa và tâm hồn con người thông qua phân tích các biểu tượng và ký hiệu trong văn hóa của nhân loại. Đây là một cuốn sách cực kỳ thú vị và đầy sức hấp dẫn cho những ai yêu thích nghiên cứu tâm lý và văn hóa. Với phong cách viết lôi cuốn và sâu sắc, Biểu Tưởng Thất Truyền là một tài liệu quan trọng cho những người muốn hiểu sâu hơn về bản chất con người và văn hóa."
+  }
+]

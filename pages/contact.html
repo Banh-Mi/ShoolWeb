@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="stylesheet" href="../assets/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/login_image.png"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Contact</title>
+  </head>
+
+  <body class="contact_page">
+    <nav class="nav_page">
+      <ul>
+        <li>
+          <a href="./home.html" class="logo"
+            ><img src="../assets/images/logo.png" alt="logo" width="150px"
+          /></a>
+        </li>
+        <li class="link"><a href="./home.html">Home</a></li>
+        <li class="link"><a href="./product.html">Product</a></li>
+        <li class="link"><a href="./about.html">About</a></li>
+        <li class="link"><a href="./contact.html">Contact</a></li>
+        <li class="ml-auto search">
+          <input type="text" name="search" id="search_input" />
+          <i class="bi bi-search search_icons"></i>
+        </li>
+        <li class="cart-li">
+          <span class="cart-num">0</span>
+          <a href="#" class="cart"><i class="bi bi-cart"></i></a>
+        </li>
+        <li class="function"></li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div class="content row">
+        <div
+          class="col-3 left-content d-flex flex-column justify-content-center text-white p-3 fs-5"
+          style="background-color: #4461f2; height: calc(100vh - 65px)"
+        >
+          <p class="fw-bold">Get in touch</p>
+          <p class="mt-2" style="font-size: 12px">
+            We love to hear from you. Our friendly team is always here to chat
+          </p>
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div class="col-11">
+              <p class="fw-bold">Chat to us</p>
+              <p style="font-size: 12px">Our friendly team is here to help</p>
+              <p style="font-size: 12px">bookstore@book.vn</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="col-11">
+              <p class="fw-bold">Office</p>
+              <p style="font-size: 12px">Come say hello at out office</p>
+              <p style="font-size: 12px">
+                Phuong 4, Nguyen Van Bao, Q.Go Vap, TP HCM
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-telephone"></i>
+            </div>
+            <div class="col-11">
+              <p class="fw-bold">Phone</p>
+              <p style="font-size: 12px">Mon-Fri from 8am to 5pm</p>
+              <p style="font-size: 12px">0274 353 6789</p>
+            </div>
+          </div>
+          <div class="d-flex gap-4 mt-auto mx-auto text-decoration-none">
+            <a href="" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="" class="text-white"><i class="bi bi-twitter"></i></a>
+            <a href="" class="text-white"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div
+          class="right-content col-9 d-flex justify-content-center align-items-center"
+        >
+          <div class="container-sm w-50 d-flex flex-column">
+            <div class="">
+              <h2>Level up your brand</h2>
+              <p style="color: #a5a6a8">
+                You can reach us anytime via
+                <a style="color: #4461f2" href="#">bookstore@book.vn</a>
+              </p>
+            </div>
+            <form action="#" class="mt-4" style="width: 500px">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Your name"
+              />
+              <label for="email" class="form-label mt-3">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="name"
+                class="form-control"
+                placeholder="Your mail"
+              />
+              <label for="phone" class="form-label mt-3">Phone Number</label>
+              <div class="input-group">
+                <span class="input-group-text">+84</span>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="Your Phone"
+                  class="form-control"
+                />
+              </div>
+              <label for="comment" class="form-label mt-3"
+                >How can we help?</label
+              >
+              <textarea
+                name="comment"
+                id=""
+                cols="30"
+                rows="5"
+                class="form-control"
+                placeholder="Tell us a little about the project..."
+              ></textarea>
+              <input
+                type="button"
+                value="Send"
+                class="btn text-white mt-3 w-100"
+                style="background-color: #4461f2"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../assets/js/search.js"></script>
+    <script src="../assets/js/home.js"></script>
+    <script src="../assets/js/cart.js"></script>
+  </body>
+</html>

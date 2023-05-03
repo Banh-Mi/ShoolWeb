@@ -1,0 +1,77 @@
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	// box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+		padding-left: 0;
+		width: 100%;
+
+		.link {
+			width: 80px;
+			text-align: center;
+
+			a {
+				color: #000;
+				position: relative;
+				transition: all 0.3s ease;
+				font-weight: 600;
+			}
+
+			a::before {
+				content: '';
+				position: absolute;
+				right: 0;
+				height: 1.5px;
+				width: 0;
+				border-radius: 50px;
+				background-color: $account-color;
+				bottom: -1px;
+				transition: all .3s ease;
+			}
+
+			a:hover::before {
+				width: 100%;
+				left: 0;
+			}
+
+
+
+
+			a:hover {
+				color: $account-color;
+			}
+		}
+
+		.sign,
+		.regis {
+			padding: 5px 10px;
+			border-radius: 4px;
+			width: 80px;
+			border: 1px solid $account-color;
+			text-align: center;
+
+			a {
+				color: $account-color;
+			}
+		}
+
+		.active {
+			background-color: $account-color;
+
+			a {
+				color: $white;
+			}
+		}
+
+
+	}
+
+
+}

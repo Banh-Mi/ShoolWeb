@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/login_image.png"
+    />
+    <title id="titlePage">Register</title>
+  </head>
+  <body class="register">
+    <section class="account">
+      <div class="account_main">
+        <nav>
+          <ul>
+            <li class="link"><a href="./home.html">Home</a></li>
+            <li class="link"><a href="./product.html">Product</a></li>
+            <li class="link"><a href="./about.html">About</a></li>
+            <li class="link"><a href="./contact.html">Contact</a></li>
+
+            <li class="sign ml-auto"><a href="./login.html">Sign in</a></li>
+            <li class="regis active">
+              <a href="./register.html" class="Register">Register</a>
+            </li>
+            <a href="./home.html" class="close_icon">
+              <i class="bi bi-x-lg"></i>
+            </a>
+          </ul>
+        </nav>
+        <div class="account_content">
+          <div class="main_left">
+            <h1 class="left_title">Sign In for a Better Experience</h1>
+            <sub
+              >If you have an account you can
+              <a href="./login.html">Sign In here!</a></sub
+            >
+          </div>
+          <div class="main_center">
+            <img src="../assets/images/login_image.png" alt="" />
+            <div class="shadow_image"></div>
+          </div>
+          <form action="" class="account_form">
+            <div class="form_email">
+              <input type="text" name="email" placeholder="Enter Email" />
+            </div>
+
+            <div class="form_password">
+              <input type="password" name="password" placeholder="Password" />
+              <i class="bi bi-eye-slash-fill"></i>
+            </div>
+
+            <div class="form_confirm-password">
+              <input
+                type="password"
+                name="password"
+                placeholder="Confirm Password"
+              />
+              <i class="bi bi-eye-slash-fill"></i>
+            </div>
+            <a href="#" class="recover_password">Recover Password?</a>
+            <span class="error"></span>
+            <div class="submit">
+              <input type="submit" value="Register" class="sign_in" />
+            </div>
+            <div class="continue">
+              <span></span>
+              <p>Or continue with</p>
+              <span></span>
+            </div>
+            <div class="social_network">
+              <a href="#"
+                ><img src="../assets/images/google_icon.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img src="../assets/images/facebook_icon.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img src="../assets/images/microsoft.png" alt="" />
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="../assets/js/toggleEye.js"></script>
+    <script src="../assets/js/account.js"></script>
+    <script src="../assets/js/creeping.js"></script>
+  </body>
+</html>

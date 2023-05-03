@@ -1,0 +1,353 @@
+.slider {
+	width: 100%;
+
+	.carousel {
+		position: relative;
+		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: hidden;
+		font-family: var(--font-main);
+
+		&::-webkit-scrollbar {
+			height: 0;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: transparent;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background: transparent;
+		}
+
+		.carousel-item {
+			position: relative;
+			width: 100vw;
+			height: 600px;
+			flex-shrink: 0;
+
+			.wrapper {
+				width: 80%;
+				position: absolute;
+				display: flex;
+				top: 55%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+
+				.content {
+					color: $white;
+					font-weight: bold;
+					text-align: left;
+					margin-bottom: 23px;
+					flex: 1;
+
+					h1 {
+						position: relative;
+						padding-bottom: 20px;
+						text-align: left;
+						top: -50px;
+						opacity: 0;
+						transition: 0.5s linear;
+					}
+
+					.button-download {
+						margin-top: 35px;
+
+						button {
+							transform: scale(0);
+							opacity: 0;
+							user-select: none;
+							-webkit-user-drag: none;
+							background: $white;
+							width: 200px;
+							height: 53px;
+							border: none;
+							font-weight: bold;
+							cursor: pointer;
+							border-radius: 25px;
+							margin: 10px;
+							box-shadow: 0 0 3px $black;
+							transition: 0.5s linear;
+
+							i {
+								font-size: 20px;
+							}
+						}
+
+						button:active {
+							transform: scale(0.9);
+						}
+
+						a {
+							text-decoration: none;
+						}
+					}
+				}
+
+				.content-img {
+					flex: 1;
+					display: flex;
+					padding-left: 20px;
+
+					img {
+						justify-content: center;
+						align-items: center;
+						width: 90%;
+						height: 90%;
+						object-position: center center;
+						object-fit: contain;
+						transform: scale(0);
+						opacity: 0;
+						transition: 0.5s linear;
+					}
+				}
+			}
+
+			&.active {
+				.wrapper {
+					.content {
+						h1 {
+							max-width: 600px;
+							top: 20px;
+							opacity: 1;
+							line-height: 50px;
+						}
+
+						.button-download button {
+							transform: scale(1);
+							opacity: 1;
+						}
+					}
+
+					.content-img {
+						img {
+							transform: scale(1);
+							opacity: 1;
+						}
+					}
+				}
+			}
+		}
+
+		.carousel-item_1 {
+			background-image: url('../images/bg_3.png');
+
+			.wrapper {
+				.content {
+					.button-download {
+						button {
+							color: $account-color;
+
+							a {
+								color: $account-color;
+							}
+
+							&:hover {
+								border: 1px solid $account-color;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.carousel-item_2 {
+			background-image: url('../images/bg_2.png');
+
+			.wrapper {
+				.content {
+					h1 {
+						color: $black;
+					}
+
+					ul {
+						margin-top: 25px;
+						position: relative;
+						top: -50px;
+						opacity: 0;
+						transition: 0.5s linear;
+						font-weight: normal;
+
+						li {
+							list-style: none;
+							color: $black;
+							display: flex;
+							gap: 5px;
+							margin: 5px 0;
+
+							img {
+								width: 12px;
+							}
+
+						}
+					}
+
+					.button-download {
+						button {
+							color: $light-yellow;
+
+							a {
+								color: $light-yellow;
+							}
+
+							&:hover {
+								border: 1px solid $light-yellow;
+							}
+						}
+					}
+				}
+
+			}
+
+			&.active {
+				.wrapper {
+					.content {
+						ul {
+							position: relative;
+							top: 0;
+							opacity: 1;
+						}
+					}
+				}
+			}
+		}
+
+		.carousel-item_3 {
+			background-image: url('../images/bg.png');
+
+			.wrapper {
+				.content {
+					.button-download {
+						button {
+							color: $green;
+
+							a {
+								color: $green;
+							}
+
+							&:hover {
+								border: 1px solid $green;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1060px) {
+	.slider {
+		.carousel {
+			.carousel-item {
+				.wrapper {
+					.content {
+						margin-top: -70px;
+
+						h1 {
+							font-size: 30px;
+						}
+
+						.button-download {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.slider {
+		.carousel {
+			.carousel-item {
+				.wrapper {
+					.content {
+						h1 {
+							font-size: 25px;
+							line-height: 35px;
+						}
+
+						ul {
+							li {
+								font-size: 12px;
+							}
+						}
+					}
+
+					.content-img {
+						width: 80%;
+					}
+				}
+
+				&.active {
+					.wrapper {
+						.content {
+							h1 {
+								font-size: 25px;
+								line-height: 35px;
+							}
+
+							ul {
+								li {
+									font-size: 12px;
+								}
+							}
+						}
+
+						.content-img {
+							width: 80%;
+						}
+					}
+				}
+
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.slider {
+		.carousel {
+			.carousel-item {
+				.wrapper {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+
+					.content {
+						h1 {
+							font-size: 20px;
+							line-height: 35px;
+						}
+					}
+
+					.content-img {
+						width: 80%;
+					}
+				}
+
+				&.active {
+					.wrapper {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+
+						.content {
+							h1 {
+								font-size: 20px;
+								line-height: 35px;
+							}
+						}
+
+						.content-img {
+							width: 80%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

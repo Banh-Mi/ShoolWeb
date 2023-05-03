@@ -1,0 +1,43 @@
+footer {
+	background-color: $black;
+	margin-top: 155px;
+	color: $white;
+	padding: 35px;
+
+	.main_footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+
+		:first-child {
+			width: 250px;
+
+			p {
+				font-size: 12px;
+				margin: 10px 0;
+			}
+
+			.facebook {
+				margin: 0 10px;
+			}
+		}
+	}
+
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		font-size: 12px;
+
+		li {
+			margin-top: 10px;
+
+			a {
+				font-size: 12px;
+				color: $white;
+			}
+		}
+	}
+}

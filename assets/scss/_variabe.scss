@@ -1,0 +1,33 @@
+
+
+.title {
+	font-family: var(--font-main);
+
+	h1 {
+		letter-spacing: 1px;
+		text-align: center;
+		margin: 50px 0px;
+		font-size: 30px;
+		line-height: 1;
+		position: relative;
+
+		&::before {
+			content: '';
+			left: 48%;
+			position: absolute;
+			height: 10px;
+			width: 50px;
+			border-radius: 5%;
+			bottom: -25px;
+			background-image: url(../images/line.png);
+		}
+	}
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+a {
+	text-decoration: none;
+}

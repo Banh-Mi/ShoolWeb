@@ -1,0 +1,38 @@
+.slider-container {
+	position: relative;
+	width: 60%;
+	height: 80px;
+	overflow: hidden;
+	cursor: grab;
+	margin: auto;
+}
+
+.slider1 {
+	position: absolute;
+	grid-auto-flow: column;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	/*we have 10 imgs so repeat 10 times 1 fr*/
+	column-gap: 2rem;
+	pointer-events: none;
+}
+
+.slider-item {
+	width: 150px;
+	height: 100%;
+
+}
+
+.slider-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	user-select: none;
+	border-radius: 10px;
+	overflow: hidden;
+
+}

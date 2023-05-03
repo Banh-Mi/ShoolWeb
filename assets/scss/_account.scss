@@ -1,0 +1,225 @@
+//Color page
+
+
+.account {
+	font-family: $font-main;
+	background-color: $account-color;
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+
+	.account_main {
+		padding: 35px 100px;
+		background-color: $white;
+		width: 80vw;
+		height: 90vh;
+		border-radius: 30px;
+
+
+
+		ul {
+			.close_icon {
+				font-size: 25px;
+			}
+		}
+
+
+		.account_content {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			place-items: center;
+			height: 100%;
+
+			.left_title {
+				font-size: 35px;
+				margin-bottom: 35px;
+			}
+
+			sub {
+				font-size: 18px;
+				max-width: 100px;
+
+				a {
+					display: inline-block;
+					color: $account-color;
+					font-weight: bold;
+				}
+			}
+
+			.main_center {
+				display: grid;
+				place-items: center;
+
+				img {
+					transform: scaleX(-1) translateY(8px);
+					width: 300px;
+					position: relative;
+					animation: fly 3s linear infinite;
+				}
+
+				.shadow_image {
+					width: 180px;
+					transform: scale(1.15);
+					height: 10px;
+					border-radius: 50%;
+					background-color: #00000057;
+					animation: shadow 3s linear infinite;
+					margin-top: 20px;
+				}
+			}
+
+			@keyframes shadow {
+				0% {
+					transform: scale(1.15);
+				}
+
+				50% {
+					transform: scale(1);
+				}
+
+				100% {
+					transform: scale(1.15);
+				}
+
+			}
+
+			@keyframes fly {
+				0% {
+					transform: scaleX(-1) translateY(8px);
+				}
+
+
+				50% {
+					transform: scaleX(-1) translateY(0px);
+
+				}
+
+
+				100% {
+					transform: scaleX(-1) translateY(8px);
+				}
+			}
+		}
+
+
+		.account_form {
+			display: grid;
+			gap: 20px;
+			width: 350px;
+			padding: 20px 0;
+
+			div[class^="form_"] {
+				width: 100%;
+				padding: 10px 20px;
+				background-color: $bg-input-color;
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border: 1px solid $bg-input-color;
+
+				&:focus-within {
+					border: 1px solid $account-color;
+				}
+
+				&:hover {
+					cursor: pointer;
+				}
+
+				input {
+					width: 100%;
+					background-color: transparent;
+					color: $txt-input-color;
+
+					&:focus {
+						background-color: $bg-input-color;
+					}
+
+					&:hover {
+						cursor: pointer;
+					}
+				}
+
+				i {
+					margin-left: auto;
+				}
+			}
+
+			.recover_password {
+				margin-left: auto;
+				color: $txt-color-gray;
+				font-size: 14.5px;
+			}
+
+			.error {
+				color: $warning;
+				height: 15px;
+
+				i {
+					margin-right: 5px;
+				}
+			}
+
+
+			.submit {
+				margin-bottom: 15px;
+
+				input {
+					border-radius: 5px;
+					padding: 10px 20px;
+					font-weight: bold;
+					color: $white;
+					background-color: $account-color;
+					width: 100%;
+				}
+			}
+
+			.continue {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				span {
+					display: inline-block;
+					width: 85px;
+					height: 1px;
+					background-color: $txt-color-gray;
+				}
+
+				p {
+					color: $txt-color-gray;
+					font-size: 14px;
+					margin: 0 10px;
+				}
+			}
+
+			.social_network {
+				margin-top: 15px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 20px;
+
+				a {
+					border: 1px solid #bcbcbcb8;
+					width: 80px;
+					padding: 10px 20px;
+					border-radius: 5px;
+					background-color: $white;
+
+					img {
+						margin: 0 auto;
+						width: 25px;
+					}
+
+					&:hover {
+						border-color: $white;
+						box-shadow: 0px 0px 10px #bcbcbcb8;
+					}
+				}
+
+			}
+		}
+	}
+}
