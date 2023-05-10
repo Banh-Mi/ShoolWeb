@@ -15,7 +15,7 @@ function readTextFile(file, callback) {
   rawFile.send(null);
 }
 
-readTextFile("../assets/js/data.json", function (text) {
+readTextFile("../assets/data/data.json", function (text) {
   products = JSON.parse(text);
   products.forEach((productItem) => {
     product.innerHTML += `

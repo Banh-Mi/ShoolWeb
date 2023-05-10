@@ -21,7 +21,7 @@ function readTextFile(file, callback) {
 
 let sumPrice = 0;
 
-readTextFile("../assets/js/data.json", function (text) {
+readTextFile("../assets/data/data.json", function (text) {
   products = JSON.parse(text);
   productsFilter = products.filter((product) => {
     return idProduct.includes(product.id.toString());

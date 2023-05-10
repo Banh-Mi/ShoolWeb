@@ -14,7 +14,7 @@ function readTextFile(file, callback) {
   rawFile.send(null);
 }
 
-readTextFile("../assets/js/data.json", function (text) {
+readTextFile("../assets/data/data.json", function (text) {
   const products = JSON.parse(text);
   product = products.find((product) => {
     return product.id === id;

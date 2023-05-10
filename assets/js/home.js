@@ -8,12 +8,12 @@ if (sessionStorage.getItem("userInfo") === null) {
   ><img src="../assets/icons/avatar.png" alt=""
 /></a>
 <ul class="dropdown_func">
-  <li>
-    <a class="profile" href="#"
+  <li onclick="alert('Đang cập nhật')">
+    <a class="profile" href="#" 
       >Profile<i class="bi bi-person"></i
     ></a>
   </li>
-  <li>
+  <li  onclick="alert('Đang cập nhật')">
     <a class="edit_profile" href="#"
       >Edit profile<i class="bi bi-pencil-square"></i
     ></a>
