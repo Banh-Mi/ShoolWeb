@@ -45,7 +45,7 @@ function checkLogin(password, email) {
   if (matchingAccount) {
     //Lưu phiên làm việc hiện tại
     sessionStorage.setItem("userInfo", JSON.stringify({ email, password }));
-    window.location.href = `./home.html`;
+    window.location.href = `./Home.html`;
   } else {
     error.innerHTML = `<i class="bi bi-exclamation-circle"></i>Account is invalid`;
   }

@@ -17,8 +17,10 @@ function readTextFile(file, callback) {
 
 readTextFile("../assets/data/data.json", function (text) {
   products = JSON.parse(text);
+
   products.forEach((productItem) => {
     product.innerHTML += `
+    
             <div class="product-item">
                 <div class="product-item-image-wrapper">
                 <a 
@@ -35,7 +37,7 @@ readTextFile("../assets/data/data.json", function (text) {
                     <span class="product-item-price-current">${productItem.productPriceCurrent}</span>
                     <span class="product-item-price-origin">${productItem.productPriceOrigin}</span>
                 </div>
-                <div class="add" onclick="addCartIdList(${productItem.id})"}>
+                <div class="add mt-auto mb-3" onclick="addCartIdList(${productItem.id})"}>
                     <button>Add</button>
                 </div>
             </div>

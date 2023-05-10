@@ -38,33 +38,7 @@
         <li class="function"></li>
       </ul>
     </nav>
-    <div class="sort my-3 mx-auto d-flex justify-content-center align-items-center gap-4" >
-      <div class="function_sort">
-        <div class="price-input">
-          <div class="field">
-            <span>Min</span>
-            <input type="number" class="input-min" value="250" readonly>
-          </div>
-          <div class="separator">-</div>
-          <div class="field">
-            <span>Max</span>
-            <input type="number" class="input-max" value="750" readonly>
-          </div>
-        </div>
-        <div class="slider2">
-          <div class="progress"></div>
-        </div>
-        <div class="range-input">
-          <input type="range" class="range-min" min="0" max="1000" value="250" step="10">
-          <input type="range" class="range-max" min="0" max="1000" value="750" step="10">
-        </div>
-      </div>
-      <button class="btn btn-primary w-25 btn_sort mb-1">
-        Sort
-      </button>
-    </div>
-  
-    <div class="product"></div>
+    <div class="product mt-5"></div>
     <footer>
       <div class="main_footer">
         <div>
@@ -106,10 +80,13 @@
       </div>
     </footer>
   </body>
-  <script src="../assets/js/renderProducts.js"></script>
+  <script src="../assets/js/renderSeachProducts.js"></script>
   <script src="../assets/js/home.js"></script>
   <script src="../assets/js/search.js"></script>
   <script src="../assets/js/cart.js"></script>
   <script src="../assets/js/addCart.js"></script>
-  <script src="../assets/js/sort.js"></script>
+  <script>
+    sessionStorage.setItem("searchValue", '');
+    sessionStorage.setItem("rangePrice", '');
+  </script>
 </html>

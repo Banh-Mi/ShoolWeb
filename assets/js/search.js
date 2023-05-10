@@ -11,7 +11,8 @@ btnSearch.addEventListener("click", () => {
     btnSearch.classList.remove("bi-search");
   } else {
     if (search_input.value != "") {
-      console.log(search_input.value);
+        sessionStorage.setItem("searchValue", search_input.value);
+        window.location.href = './search_product_page.html'
       //Code
     } else {
       search_input.style.display = "none";
@@ -21,6 +22,13 @@ btnSearch.addEventListener("click", () => {
       btnSearch.classList.remove("bi-x-lg");
     }
   }
+});
+
+search_input.addEventListener("keydown", (e) => {
+    if(e.key === "Enter") {
+        sessionStorage.setItem("searchValue", search_input.value);
+        window.location.href = './search_product_page.html'
+    }
 });
 
 search_input.addEventListener("input", () => {
