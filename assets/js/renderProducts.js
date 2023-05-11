@@ -1,5 +1,5 @@
 const product = document.querySelector(".product");
-
+sessionStorage.setItem("searchValue", "");
 let cartIdList = [];
 let products = [];
 
